@@ -1,0 +1,28 @@
+alias ls='ls -G'
+alias l='ls'
+alias la='ls -AF'       # Compact view, show hidden
+alias ll='ls -al'
+
+alias _="sudo"
+alias c='cd'
+alias cls='clear'
+
+alias ..='cd ..'         # Go up one directory
+alias ...='cd ../..'     # Go up two directories
+alias ....='cd ../../..' # Go up two directories
+
+# Shell History
+alias h='history'
+
+# Tree
+if [ ! -x "$(which tree 2>/dev/null)" ]
+    then
+    alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+fi
+
+# Directory
+alias   md='mkdir -p'
+alias   rd='rmdir'
+
+alias g='git'
+alias v='vim'
