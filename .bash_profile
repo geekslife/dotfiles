@@ -4,7 +4,6 @@ DOTFILES=~/dotfiles
 source $DOTFILES/aliases
 source $DOTFILES/git-prompt.sh
 
-
 Green='\e[0;32m' 
 Yellow='\e[0;33m'
 White='\e[0;37m'
@@ -24,6 +23,6 @@ export PYTHONPATH=/usr/local/google_appengine:~/DevTools/google-cloud-sdk/lib:$s
 export PATH=$PATH:~/bin
 export PATH=/usr/local/sbin:$PATH
 
-if [ -e "~/.bash_profile" ] 
-    then source ~/.bash_profile
-    fi
+if [ -e "$DOTFILES/custom_bash_profile" ]
+then source $DOTFILES/custom_bash_profile
+fi
