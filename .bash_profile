@@ -8,7 +8,7 @@ Green='\e[0;32m'
 Yellow='\e[0;33m'
 White='\e[0;37m'
 #export PS1="\e[0;32m\W\$(__git_ps1)\$\e[m "
-export PS1="\[$Green\]\w\[$Yellow\]\$(__git_ps1)\[$Green\]\$\[$White\] "
+export PS1="\u@\h:\[$Green\]\w\[$Yellow\]\$(__git_ps1)\[$Green\]\$\[$White\] "
 
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home
@@ -26,3 +26,10 @@ export PATH=/usr/local/sbin:$PATH
 if [ -e "$DOTFILES/custom_bash_profile" ]
 then source $DOTFILES/custom_bash_profile
 fi
+
+# New environment setting added by Protex on Fri May 29 18:09:43 KST 2015 1.
+# The unmodified version of this file is saved in /Users/skplanet/.bash_profile1281330266.
+# Do NOT modify these lines; they are used to uninstall.
+PATH="/Applications/protexIP/bin:${PATH}"
+export PATH
+# End comments by InstallAnywhere on Fri May 29 18:09:43 KST 2015 1.
