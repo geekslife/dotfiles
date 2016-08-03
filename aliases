@@ -28,6 +28,3 @@ alias g='git'
 alias v='vim'
 alias gr='grep'
 alias grr='grep -R'
-
-alias gw='ssh geekslife@gw.recopick.com'
-alias sshr='ssh -i ~/.ssh/id_rsa.gw -l ubuntu'
