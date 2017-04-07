@@ -4,6 +4,9 @@ DOTFILES=~/dotfiles
 source $DOTFILES/aliases
 source $DOTFILES/git-prompt.sh
 
+export VISUAL=vi
+export EDITOR=vi
+
 Green='\e[0;32m' 
 Yellow='\e[0;33m'
 White='\e[0;37m'
