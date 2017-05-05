@@ -1,4 +1,4 @@
-alias ls='ls -G'
+alias ls='ls --color=auto'
 alias l='ls'
 alias la='ls -AF'       # Compact view, show hidden
 alias ll='ls -al'
