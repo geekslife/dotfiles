@@ -6,6 +6,7 @@ set expandtab
 set ignorecase
 set hlsearch
 set incsearch
+set encoding=utf8
 set fileencodings=utf-8,euc-kr
 set fileformat=unix
 
