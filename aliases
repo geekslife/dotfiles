@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 alias ls='ls --color=auto'
-=======
-alias ls='ls --color'
->>>>>>> 59aee84d60528de7ce8c787919d617a4309e4e1e
 alias l='ls'
 alias la='ls -AF'       # Compact view, show hidden
 alias ll='ls -al'
