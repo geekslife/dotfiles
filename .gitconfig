@@ -1,0 +1,8 @@
+[user]
+	email = geekslife@gmail.com
+	name = Haeyoung Kim
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
