@@ -1,0 +1,9 @@
+[alias]
+    lg = log --graph --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    co = checkout
+    ci = commit
+    br = branch
+    st = status
+
+[format]
+    pretty = format:%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
